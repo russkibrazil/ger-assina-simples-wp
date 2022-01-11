@@ -1,0 +1,68 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+p{
+    text-indent: 2cm;
+    text-align: justify;
+    font-size: 13pt;
+}
+.texto-dir{
+    text-align: right;
+}
+.texto-centro{
+    text-align: center;
+}
+.flutua{
+    position: relative;
+}
+.imagem-centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#borda{
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 217mm;
+    height: 297mm;
+}
+#sigla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+    
+}
+#extenso{
+    background-color: lightgreen;
+    font-size: 15pt;
+}
+#titulo{
+    text-decoration: underline;
+}
+#rodape{
+    position: relative;
+    height: 40mm;
+    font-size: 10pt;
+}
+#assinatura{
+    height: 12mm;
+}
+#conteudo{
+    height: 270mm;
+}
+/* Outra tentativa para prender o rodapé na parte inferior
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+footer {
+    background-color: grey;
+    display: table-row;
+    height: 0;
+}
+*/
